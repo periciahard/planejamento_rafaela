@@ -1,0 +1,26 @@
+<!DOCTYPE html><html lang='pt-BR'><head>
+<meta charset='UTF-8'><meta name='viewport' content='width=device-width,initial-scale=1'>
+<title>PlanoMestre v1.1</title>
+<link rel='stylesheet' href='css/style.css'></head>
+<body>
+<div class='card'>
+<h1>📘 PlanoMestre</h1>
+<h3>Colégio Céu Azul</h3>
+<p><b>Professora:</b> Rafaela &nbsp; | &nbsp; <b>Turma:</b> 4º Ano D</p>
+
+<label>Semana</label>
+<input type='week' id='semana'>
+
+<div id='drop' class='drop'>
+<p>📷 Arraste todas as fotos dos livros aqui</p>
+<p>ou clique para selecionar</p>
+<input id='files' type='file' accept='image/*' multiple>
+</div>
+
+<button onclick='gerar()'>GERAR PLANEJAMENTO</button>
+
+<div id='preview'></div>
+<pre id='saida'></pre>
+</div>
+<script src='js/app.js'></script>
+</body></html>
