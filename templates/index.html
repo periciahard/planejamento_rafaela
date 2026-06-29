@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>PlanoMestre v4</title>
+<style>
+body{font-family:Arial;margin:30px;max-width:900px}
+input,select,button,textarea{width:100%;padding:10px;margin:8px 0}
+button{background:#1e6bd6;color:white;border:none}
+</style>
+</head>
+<body>
+
+<h2>PlanoMestre v4 - Institucional</h2>
+
+<label>Disciplina</label>
+<input id="disciplina">
+
+<label>Data início</label>
+<input id="inicio" type="date">
+
+<label>Data fim</label>
+<input id="fim" type="date">
+
+<label>API Key</label>
+<input id="apiKey" type="password">
+
+<label>Fotos</label>
+<input id="fotos" type="file" multiple>
+
+<button id="btnGerar">Gerar Planejamento</button>
+<button id="btnWord">Gerar Word</button>
+
+<pre id="saida"></pre>
+
+<script src="/static/script.js"></script>
+</body>
+</html>
